@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+  
+}
+/* Hero area style starts here */
+.background {
+  height: 100vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("./resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.opacity {
+    height: 100vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    position: absolute;
+  background-image: linear-gradient(rgba(19, 17, 17, 0.7), rgba(22, 22, 20, 0.7));
+  width: 100%;
+  height: 95vh;
+ 
+  
+  /* position: absolute; */
+  
+}
+.heroes-text {
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+.heroes-text h1 {
+  font-size: 40px;
+  
+}
+.heroes-text p {
+  font-size: 20px;
+}
+.heroes::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* Hero area style ends here */
+
+/* Discount Section Starts Here */
+.discount-section {
+  text-align: center;
+  margin: 40px auto;
+}
+.discount-section > h2 {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.discount-section > .small-text {
+  font-size: 10px;
+  color: red;
+  font-weight: bold;
+}
+.discount-section > .type {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.discount-section > img {
+  width: 60%;
+}
+/* Discount Section ends Here */
+
+/*Wellcome section  starts here */
+.welcome-section {
+  background-image: url(./resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90%;
+  height: 100vh;
+  margin: 20px auto;
+  display: flex;
+  border-radius: 7px;
+}
+.opacity-two {
+  height: 95vh;
+    width: 90%;
+    margin-top: 2vh;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    position: absolute;
+    background-image: linear-gradient(rgba(19, 17, 17, 0.7), rgba(22, 22, 20, 0.7));
+    
+}
+.welcome-child {
+  width: 60%;
+  margin: 40vh auto;
+  padding: 0 100px;
+  color: white;
+  z-index: 2;
+}
+.welcome-child > h3 {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.welcome-child > p {
+  font-size: 15px;
+  text-align: justify;
+}
+.welcome-child > a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+.welcome-child > a:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
+.welcome-child-two {
+  width: 40%;
+  margin: 80px auto;
+  z-index: 3;
+}
+.welcome-child-two > img {
+  width: 80%;
+  height: auto;
+  
+}
+/*Wellcome section  ends here */
+
+/* visiting card section starts here */
+.visiting-card {
+  
+  background-image: linear-gradient(180deg, rgba(186, 132, 62, 0.1) 0%, rgba(164, 93, 71, 0) 100%);
+  width: 90%;
+  height: 50vh;
+  margin: 20px auto;
+  position: relative;
+  border: 1px solid #fff;
+}
+.visiting-card p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.visiting-card p > span {
+  color: red;
+  font-weight: bold;
+}
+
+.visiting-card-child {
+  width: 100%;
+  
+  text-align: center;
+  margin: 8% auto;
+  margin-bottom: 0;
+  
+
+}
+.visiting-card > button{
+  padding: 8px 10px;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  border: none;
+  display: block;
+  margin: 30px auto;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.visiting-card > button:hover {
+  background-color: rgb(198, 8, 8);
+}
+/* visiting card section ends here */
+
+/* offer section starts  here */
+.offer-section {
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.offer-child-one {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.offer-child-two {
+  grid-column-start: 6;
+  grid-column-end: 8; 
+}
+.offer-child-three {
+  grid-column-start: 10;
+  grid-column-end: 12;
+}
+/* offer section ends here */
+/* Holday Sale section starts here */
+.holiday-section {
+  width: 90%;
+  height: auto
+  margin: 40px auto;
+  text-align: center;
+}
+
+.holiday-section p {
+  padding: 10px 0;
+}
+
+.holiday-section h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.holiday-section h2 span {
+  color: red;
+}
+
+.holiday-image {
+  width: 90%;
+  position: relative;
+
+}
+.holiday-image img {
+  width: 100px;
+  
+}
+.image-one {
+  float: left;
+ 
+}
+.image-two {
+  float: right;
+  
+}
+.image-three {
+  position: absolute;
+  top: 100px;
+  width: 400px;
+}
+
+/* Holday Sale section ends here */
+
+ /* Product section starts here */
+ .product-details {
+  width: 90%;
+  margin: 20px auto;
+ }
+ .product-details span {
+  color: red;
+  font-weight: bold;
+ }
+ .product-details h2 {
+  font-size: 30px;
+  margin: 10px 0;
+ }
+ 
+ .product-parent {
+  width: 90%;
+  margin: 30px auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ 
+ }
+ .product-parent img {
+  width: 400px;
+  margin: 10px;
+ }
+ /* Product section ends here */
+
+/* Search section starts here */
+.search-card {
+
+  background-color: #f8f3ec;
+  width: 90%;
+  height: 50vh;
+  margin: 20px auto;
+  position: relative;
+  border: 1px solid #fff;
+}
+.search-card-child img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.search-card-child h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.search-card-child p {
+  margin-bottom: 20px;
+}
+.search-card-child {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  
+}
+.search-card-child input {
+  padding: 10px 5px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-style: none;
+}
+.subscribe {
+  padding: 9px 4px;
+  margin-left: -4px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: red;
+  color: white;
+}
+/* Search section starts here */
+
+/* Footer section starts here */
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 300px;
+  
+}
+.footer-parent {
+  width: 90%;
+  margin: 20px auto;
+}
+.left {
+  text-align: left;
+  padding-top: 40px;
+}
+.right {
+  text-align: right;
+  margin-top: -40px;
+}
+
+.footer-logo {
+  display: flex;
+  width: 15%;
+  margin: 30px auto;
+ 
+
+  
+}
+.facebook {
+  margin-right: 10px;
+}
+.bottom-left {
+  text-align: left;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.bottom-right {
+  text-align: right;
+  margin-top: -50px;
+}
+/* Footer section ends here */
+
